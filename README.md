@@ -156,39 +156,5 @@ Copy code
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/ziggurat-3d.git
-cd ziggurat-3d
-Start a local server:
-
-bash
-Copy code
-python3 -m http.server
-Open http://localhost:8000 in your browser.
-
-Or use GitHub Pages for online viewing:
-
-Push the repo to GitHub.
-
-Go to Settings → Pages.
-
-Select the branch (usually main) and root folder (/).
-
-GitHub provides a live URL for your site.
-
-Controls
-Orbit Mode: Drag mouse to rotate, scroll to zoom.
-
-First-Person Mode: WASD to move, mouse to look around.
-
-UI Buttons: Switch cameras, toggle wireframe, toggle lights.
-
-Interact: Click rooms, doors, or altars to show information.
-
 License
 MIT License – free to use, modify, and share.
-
