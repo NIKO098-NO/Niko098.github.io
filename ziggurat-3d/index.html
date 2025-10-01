@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ziggurat 3D Interactive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="overlay">
+      <button class="btn" id="modeOrbit">Orbit Mode</button>
+      <button class="btn" id="modeFirst">First-Person</button>
+      <button class="btn" id="toggleWire">Toggle Wireframe</button>
+      <button class="btn" id="toggleLights">Toggle Lights</button>
+      <div id="hint">WASD + Mouse in First-Person • Scroll to Zoom</div>
+    </div>
+
+    <div id="info">
+      <div class="panel-title">Info Panel</div>
+      <div id="panelContent">Click objects in the ziggurat to inspect.</div>
+      <hr />
+      <div><strong>Parameters</strong></div>
+      <div id="params"></div>
+    </div>
+
+    <canvas id="canvas3d"></canvas>
+  </div>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/examples/js/controls/PointerLockControls.js"></script>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

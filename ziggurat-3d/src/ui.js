@@ -1,0 +1,1 @@
+export function setupUI(scene, ziggurat){ console.log('UI setup placeholder'); }
